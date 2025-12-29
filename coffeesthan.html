@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffeesthan | Jagatpura, Jaipur</title>
+    <link rel="stylesheet" href="style-cafe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="language-toggle">
+    <button id="langBtn" onclick="toggleLanguage()">हिंदी में देखें</button>
+</div>
+
+<header>
+    <div class="container">
+        <h1><span id="header-title">The Coffeesthan</span></h1>
+        <p id="header-subtitle">Cafe in Jagatpura, Jaipur</p>
+        <div class="rating">
+            <span class="stars">⭐⭐⭐⭐⭐</span>
+            <span id="rating-text">4.9 (96 reviews)</span>
+        </div>
+        <div class="badge open-badge" id="open-badge">Open</div>
+    </div>
+</header>
+
+<section class="hero">
+    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&q=80" alt="The Coffeesthan">
+    <div class="hero-overlay">
+        <h2 id="hero-title">Cafe in Jagatpura</h2>
+        <p id="hero-text">Coffee, shakes, mocktails and quick bites</p>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="container">
+        <a href="https://wa.me/919351222558?text=Hi!%20I%20want%20to%20know%20about%20The%20Coffeesthan" class="btn btn-primary">
+            <span class="btn-icon">💬</span> <span id="whatsapp-btn">WhatsApp</span>
+        </a>
+        <a href="tel:+919351222558" class="btn btn-secondary">
+            <span class="btn-icon">📞</span> <span id="call-btn">Call</span>
+        </a>
+    </div>
+</section>
+
+<section class="about">
+    <div class="container">
+        <h2 id="about-title">About The Coffeesthan</h2>
+        <p id="about-text">
+            A local cafe located in Jagatpura offering coffee, shakes, mocktails,
+            quick bites and small plates. Popular among locals, university students and groups.
+        </p>
+
+        <div class="features">
+            <div class="feature">
+                <span class="feature-icon">🍽️</span>
+                <h3 id="feature1-title">Dine-In</h3>
+                <p id="feature1-text">Available</p>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">📦</span>
+                <h3 id="feature2-title">Takeaway</h3>
+                <p id="feature2-text">Available</p>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🚗</span>
+                <h3 id="feature3-title">Drive-Through</h3>
+                <p id="feature3-text">Available</p>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🛵</span>
+                <h3 id="feature4-title">Delivery</h3>
+                <p id="feature4-text">No-contact delivery</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="menu">
+    <div class="container">
+        <h2 id="menu-title">Menu</h2>
+
+        <div class="menu-category">
+            <h3 id="menu-coffee-title">☕ Coffee</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><span id="item-espresso">Espresso (30 ml)</span><span class="price">₹20</span></div>
+                <div class="menu-item"><span id="item-cappuccino">Cappuccino</span><span class="price">₹70</span></div>
+                <div class="menu-item"><span id="item-latte">Café Latte</span><span class="price">₹70</span></div>
+                <div class="menu-item"><span id="item-vanillalatte">Vanilla Latte</span><span class="price">₹80</span></div>
+                <div class="menu-item"><span id="item-nutellacap">Nutella Cappuccino</span><span class="price">₹100</span></div>
+                <div class="menu-item"><span id="item-coldcoffee">Cold Coffee</span><span class="price">₹70</span></div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3 id="menu-shake-title">🥤 Shakes</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><span id="item-peanutshake">Peanut Butter Shake</span><span class="price">₹110</span></div>
+                <div class="menu-item"><span id="item-butterscotch">Butterscotch Shake</span><span class="price">₹100</span></div>
+                <div class="menu-item"><span id="item-oreoshake">Oreo Shake</span><span class="price">₹110</span></div>
+                <div class="menu-item"><span id="item-nutellashake">Nutella Shake</span><span class="price">₹140</span></div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3 id="menu-snack-title">🍽️ Snacks & Fast Food</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><span id="item-vegsand">Veg Grilled Sandwich</span><span class="price">₹70</span></div>
+                <div class="menu-item"><span id="item-cheesesand">Cheese Grilled Sandwich</span><span class="price">₹80</span></div>
+                <div class="menu-item"><span id="item-paneersand">Paneer Tikka Sandwich</span><span class="price">₹110</span></div>
+                <div class="menu-item"><span id="item-vegburger">Veg Burger</span><span class="price">₹40</span></div>
+                <div class="menu-item"><span id="item-cheeseburger">Cheese Burger</span><span class="price">₹50</span></div>
+                <div class="menu-item"><span id="item-fries">French Fries</span><span class="price">₹50</span></div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3 id="menu-maggie-title">🍜 Maggie</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><span id="item-vegmaggie">Vegetable Maggie</span><span class="price">₹50</span></div>
+                <div class="menu-item"><span id="item-tandoorimaggie">Tandoori Maggie</span><span class="price">₹70</span></div>
+                <div class="menu-item"><span id="item-perimaggie">Peri-Peri Maggie</span><span class="price">₹80</span></div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3 id="menu-pizza-title">🍕 Pizza</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><span id="item-cheesepizza">Cheese Margherita</span><span class="price">₹110</span></div>
+                <div class="menu-item"><span id="item-farmpizza">Farm Fresh Pizza</span><span class="price">₹120</span></div>
+                <div class="menu-item"><span id="item-paneerpizza">Tandoori Paneer Pizza</span><span class="price">₹150</span></div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3 id="menu-mocktail-title">🧃 Mocktails & Iced Tea</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><span id="item-watermelon">Watermelon Litchi Punch</span><span class="price">₹90</span></div>
+                <div class="menu-item"><span id="item-mojito">Virgin Mojito</span><span class="price">₹70</span></div>
+                <div class="menu-item"><span id="item-icedtea">Lemon Iced Tea</span><span class="price">₹60</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="amenities">
+    <div class="container">
+        <h2 id="amenities-title">Facilities</h2>
+        <div class="amenities-grid">
+            <div class="amenity-item"><p id="amenity-parking">Free Street Parking</p></div>
+            <div class="amenity-item"><p id="amenity-accessible">Wheelchair-Accessible Parking</p></div>
+            <div class="amenity-item"><p id="amenity-eco">Eco-Friendly Disposables</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <div class="container">
+        <h2 id="contact-title">Visit Us</h2>
+
+        <div class="contact-info">
+            <div class="info-item">
+                <h3 id="contact-address-title">Address</h3>
+                <p id="contact-address">
+                    RV26+MP6, Karolan Ka Barh,
+                    Shri Kishanpura, Jagatpura,
+                    Jaipur – 302017
+                </p>
+            </div>
+
+            <div class="info-item">
+                <h3 id="contact-phone-title">Phone</h3>
+                <p><a href="tel:+919351222558">093512 22558</a></p>
+            </div>
+
+            <div class="info-item">
+                <h3 id="contact-hours-title">Hours</h3>
+                <p id="contact-hours">Open • Closes at 8:00 PM</p>
+            </div>
+        </div>
+
+        <a href="https://maps.app.goo.gl/quencf1QV8U6BXTm7" target="_blank" class="btn btn-map">
+            <span id="map-btn-text">Locate on Map</span>
+        </a>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p id="footer-text">© 2025 The Coffeesthan, Jagatpura</p>
+    </div>
+</footer>
+
+<script>
+let currentLang = 'en';
+
+const translations = {
+    en: {
+        langBtn: 'हिंदी में देखें',
+        'header-title': 'The Coffeesthan',
+        'header-subtitle': 'Cafe in Jagatpura, Jaipur',
+        'rating-text': '4.9 (96 reviews)',
+        'open-badge': 'Open',
+        'hero-title': 'Cafe in Jagatpura',
+        'hero-text': 'Coffee, shakes, mocktails and quick bites',
+        'whatsapp-btn': 'WhatsApp',
+        'call-btn': 'Call',
+        'about-title': 'About The Coffeesthan',
+        'about-text': 'A local cafe located in Jagatpura offering coffee, shakes, mocktails, quick bites and small plates. Popular among locals, university students and groups.',
+        'feature1-title': 'Dine-In',
+        'feature1-text': 'Available',
+        'feature2-title': 'Takeaway',
+        'feature2-text': 'Available',
+        'feature3-title': 'Drive-Through',
+        'feature3-text': 'Available',
+        'feature4-title': 'Delivery',
+        'feature4-text': 'No-contact delivery',
+        'menu-title': 'Menu',
+        'menu-coffee-title': '☕ Coffee',
+        'menu-shake-title': '🥤 Shakes',
+        'menu-snack-title': '🍽️ Snacks & Fast Food',
+        'menu-maggie-title': '🍜 Maggie',
+        'menu-pizza-title': '🍕 Pizza',
+        'menu-mocktail-title': '🧃 Mocktails & Iced Tea',
+        'item-espresso': 'Espresso (30 ml)',
+        'item-cappuccino': 'Cappuccino',
+        'item-latte': 'Café Latte',
+        'item-vanillalatte': 'Vanilla Latte',
+        'item-nutellacap': 'Nutella Cappuccino',
+        'item-coldcoffee': 'Cold Coffee',
+        'item-peanutshake': 'Peanut Butter Shake',
+        'item-butterscotch': 'Butterscotch Shake',
+        'item-oreoshake': 'Oreo Shake',
+        'item-nutellashake': 'Nutella Shake',
+        'item-vegsand': 'Veg Grilled Sandwich',
+        'item-cheesesand': 'Cheese Grilled Sandwich',
+        'item-paneersand': 'Paneer Tikka Sandwich',
+        'item-vegburger': 'Veg Burger',
+        'item-cheeseburger': 'Cheese Burger',
+        'item-fries': 'French Fries',
+        'item-vegmaggie': 'Vegetable Maggie',
+        'item-tandoorimaggie': 'Tandoori Maggie',
+        'item-perimaggie': 'Peri-Peri Maggie',
+        'item-cheesepizza': 'Cheese Margherita',
+        'item-farmpizza': 'Farm Fresh Pizza',
+        'item-paneerpizza': 'Tandoori Paneer Pizza',
+        'item-watermelon': 'Watermelon Litchi Punch',
+        'item-mojito': 'Virgin Mojito',
+        'item-icedtea': 'Lemon Iced Tea',
+        'amenities-title': 'Facilities',
+        'amenity-parking': 'Free Street Parking',
+        'amenity-accessible': 'Wheelchair-Accessible Parking',
+        'amenity-eco': 'Eco-Friendly Disposables',
+        'contact-title': 'Visit Us',
+        'contact-address-title': 'Address',
+        'contact-phone-title': 'Phone',
+        'contact-hours-title': 'Hours',
+        'contact-hours': 'Open • Closes at 8:00 PM',
+        'map-btn-text': 'Locate on Map',
+        'footer-text': '© 2025 The Coffeesthan, Jagatpura'
+    },
+    hi: {
+        langBtn: 'View in English',
+        'header-title': 'द कॉफीस्थान',
+        'header-subtitle': 'जगतपुरा, जयपुर में कैफे',
+        'rating-text': '4.9 (96 समीक्षाएं)',
+        'open-badge': 'खुला है',
+        'hero-title': 'जगतपुरा में कैफे',
+        'hero-text': 'कॉफी, शेक्स, मॉकटेल और क्विक बाइट्स',
+        'whatsapp-btn': 'WhatsApp',
+        'call-btn': 'कॉल करें',
+        'about-title': 'द कॉफीस्थान के बारे में',
+        'about-text': 'जगतपुरा में स्थित एक लोकल कैफे जो कॉफी, शेक्स, मॉकटेल, क्विक बाइट्स और स्मॉल प्लेट्स प्रदान करता है। लोकल्स, यूनिवर्सिटी छात्रों और ग्रुप्स में लोकप्रिय।',
+        'feature1-title': 'डाइन-इन',
+        'feature1-text': 'उपलब्ध',
+        'feature2-title': 'टेकअवे',
+        'feature2-text': 'उपलब्ध',
+        'feature3-title': 'ड्राइव-थ्रू',
+        'feature3-text': 'उपलब्ध',
+        'feature4-title': 'डिलीवरी',
+        'feature4-text': 'नो-कॉन्टैक्ट डिलीवरी',
+        'menu-title': 'मेनू',
+        'menu-coffee-title': '☕ कॉफी',
+        'menu-shake-title': '🥤 शेक्स',
+        'menu-snack-title': '🍽️ स्नैक्स और फास्ट फूड',
+        'menu-maggie-title': '🍜 मैगी',
+        'menu-pizza-title': '🍕 पिज़्ज़ा',
+        'menu-mocktail-title': '🧃 मॉकटेल और आइस्ड टी',
+        'item-espresso': 'एस्प्रेसो (30 मि.ली.)',
+        'item-cappuccino': 'कैपुचीनो',
+        'item-latte': 'कैफे लट्टे',
+        'item-vanillalatte': 'वेनिला लट्टे',
+        'item-nutellacap': 'नुटेला कैपुचीनो',
+        'item-coldcoffee': 'कोल्ड कॉफी',
+        'item-peanutshake': 'पीनट बटर शेक',
+        'item-butterscotch': 'बटरस्कॉच शेक',
+        'item-oreoshake': 'ओरियो शेक',
+        'item-nutellashake': 'नुटेला शेक',
+        'item-vegsand': 'वेज ग्रिल्ड सैंडविच',
+        'item-cheesesand': 'चीज़ ग्रिल्ड सैंडविच',
+        'item-paneersand': 'पनीर टिक्का सैंडविच',
+        'item-vegburger': 'वेज बर्गर',
+        'item-cheeseburger': 'चीज़ बर्गर',
+        'item-fries': 'फ्रेंच फ्राइज़',
+        'item-vegmaggie': 'वेजिटेबल मैगी',
+        'item-tandoorimaggie': 'तंदूरी मैगी',
+        'item-perimaggie': 'पेरी-पेरी मैगी',
+        'item-cheesepizza': 'चीज़ मार्गेरिटा',
+        'item-farmpizza': 'फार्म फ्रेश पिज़्ज़ा',
+        'item-paneerpizza': 'तंदूरी पनीर पिज़्ज़ा',
+        'item-watermelon': 'वॉटरमेलन लीची पंच',
+        'item-mojito': 'वर्जिन मोजिटो',
+        'item-icedtea': 'लेमन आइस्ड टी',
+        'amenities-title': 'सुविधाएं',
+        'amenity-parking': 'फ्री स्ट्रीट पार्किंग',
+        'amenity-accessible': 'व्हीलचेयर-सुलभ पार्किंग',
+        'amenity-eco': 'इको-फ्रेंडली डिस्पोज़ेबल्स',
+        'contact-title': 'हमसे मिलें',
+        'contact-address-title': 'पता',
+        'contact-phone-title': 'फ़ोन',
+        'contact-hours-title': 'समय',
+        'contact-hours': 'खुला है • शाम 8:00 बजे बंद',
+        'map-btn-text': 'मैप पर देखें',
+        'footer-text': '© 2025 द कॉफीस्थान, जगतपुरा'
+    }
+};
+
+function toggleLanguage() {
+    currentLang = currentLang === 'en' ? 'hi' : 'en';
+    for (const key in translations[currentLang]) {
+        const el = document.getElementById(key);
+        if (el) el.textContent = translations[currentLang][key];
+    }
+}
+</script>
+
+</body>
+</html>
